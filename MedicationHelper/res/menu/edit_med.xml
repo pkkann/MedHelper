@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_remove_med" android:title="@string/action_remove_med" android:icon="@drawable/ic_action_remove" android:onClick="action_remove_med" android:showAsAction="always"></item><item android:id="@+id/action_save_med" android:title="@string/action_save_med" android:icon="@drawable/ic_action_save" android:showAsAction="always" android:onClick="action_save_med"></item>
+    
+
+</menu>

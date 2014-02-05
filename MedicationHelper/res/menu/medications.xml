@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_med"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add_med"
+        android:icon="@drawable/ic_action_new"
+        android:onClick="action_add_med"/>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medication Helper</string>
+    <string name="title_activity_medications">Medications</string>
+    <string name="title_activity_add_med">Add medication</string>
+    <string name="title_activity_edit_med">Edit medication</string>
+    <string name="action_history">History</string>
+    <string name="action_backup">Backup</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_medications">Medications</string>
+    <string name="action_add_med">Add</string>
+    <string name="action_save_med">Save</string>
+    <string name="action_remove_med">Remove</string>
+    <string name="text_next_med">Next medication:</string>
+    <string name="text_last_entry">Last entry:</string>
+    <string name="text_add_med">The alarm will ring 10 min every day, at the specified time</string>
+    <string name="hint_med_name">Medication name</string>
+    <string name="hint_time">Time</string>
+    
+</resources>
