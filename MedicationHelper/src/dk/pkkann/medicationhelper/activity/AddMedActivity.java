@@ -37,7 +37,7 @@ public class AddMedActivity extends Activity {
 		TimePicker time = (TimePicker) findViewById(R.id.add_time);
 		
 		medH.createMedication(med_name.getText().toString(), time.getCurrentMinute(), time.getCurrentHour());
-		Toast.makeText(this, "Medication added - " + time.getCurrentHour() + ":" + time.getCurrentMinute() + " and is active", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, getString(R.string.toast_added) + " - " + time.getCurrentHour() + ":" + time.getCurrentMinute(), Toast.LENGTH_SHORT).show();
 		MedicationsActivity.adapter.notifyDataSetChanged();
 		finish();
 	}

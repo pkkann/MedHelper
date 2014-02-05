@@ -60,7 +60,7 @@ public class EditMedActivity extends Activity {
 		
 		medH.saveMedication(position, med_name, minute, hour);
 		MedicationsActivity.adapter.notifyDataSetChanged();
-		Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, getString(R.string.toast_saved), Toast.LENGTH_SHORT).show();
 		finish();
 	}
 	
@@ -73,7 +73,7 @@ public class EditMedActivity extends Activity {
 		        	int position = intent.getIntExtra("position", -1);
 		    		medH.deleteMedication(position);
 		    		MedicationsActivity.adapter.notifyDataSetChanged();
-		    		Toast.makeText(EditMedActivity.this, "Deleted", Toast.LENGTH_SHORT).show();
+		    		Toast.makeText(EditMedActivity.this, getString(R.string.toast_deleted), Toast.LENGTH_SHORT).show();
 		    		finish();
 		            break;
 
@@ -85,7 +85,7 @@ public class EditMedActivity extends Activity {
 		};
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setMessage("Are you sure you want to delete?").setPositiveButton("Yes", dialogClickListener).setNegativeButton("No", dialogClickListener).show();
+		builder.setMessage(getString(R.string.yn_q_delete)).setPositiveButton(getString(R.string.yn_y_delete), dialogClickListener).setNegativeButton(getString(R.string.yn_n_delete), dialogClickListener).show();
 		
 	}
 

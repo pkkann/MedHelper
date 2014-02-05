@@ -26,6 +26,7 @@ public final class R {
         public static final int ic_action_remove=0x7f020002;
         public static final int ic_action_save=0x7f020003;
         public static final int ic_launcher=0x7f020004;
+        public static final int icon=0x7f020005;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
@@ -79,6 +80,12 @@ public final class R {
         public static final int title_activity_add_med=0x7f050002;
         public static final int title_activity_edit_med=0x7f050003;
         public static final int title_activity_medications=0x7f050001;
+        public static final int toast_added=0x7f050011;
+        public static final int toast_deleted=0x7f050012;
+        public static final int toast_saved=0x7f050010;
+        public static final int yn_n_delete=0x7f050015;
+        public static final int yn_q_delete=0x7f050013;
+        public static final int yn_y_delete=0x7f050014;
     }
     public static final class style {
         /** 
