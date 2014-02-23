@@ -36,10 +36,15 @@ public class AddMedActivity extends Activity {
 		EditText med_name = (EditText) findViewById(R.id.add_med_name);
 		TimePicker time = (TimePicker) findViewById(R.id.add_time);
 		
-		medH.createMedication(med_name.getText().toString(), time.getCurrentMinute(), time.getCurrentHour());
-		Toast.makeText(this, getString(R.string.toast_added) + " - " + time.getCurrentHour() + ":" + time.getCurrentMinute(), Toast.LENGTH_SHORT).show();
-		MedicationsActivity.adapter.notifyDataSetChanged();
-		finish();
+		if(!med_name.getText().toString().isEmpty()) {
+			medH.createMedication(med_name.getText().toString(), time.getCurrentMinute(), time.getCurrentHour());
+			Toast.makeText(this, getString(R.string.toast_added) + " - " + time.getCurrentHour() + ":" + time.getCurrentMinute(), Toast.LENGTH_SHORT).show();
+			MedicationsActivity.adapter.notifyDataSetChanged();
+			finish();
+		} else {
+			Toast.makeText(this, getString(R.string.toast_medNameEmpty), Toast.LENGTH_LONG).show();
+		}
+			
 	}
 
 }

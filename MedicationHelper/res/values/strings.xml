@@ -20,6 +20,7 @@
     <string name="toast_saved">Medication saved</string>
     <string name="toast_added">Medication added and is active</string>
     <string name="toast_deleted">Medication deleted</string>
+    <string name="toast_medNameEmpty">Medication name can not be empty!</string>
     <string name="yn_q_delete">Are you sure you want to delete this medication?</string>
     <string name="yn_y_delete">Delete</string>
     <string name="yn_n_delete">Cancel</string>

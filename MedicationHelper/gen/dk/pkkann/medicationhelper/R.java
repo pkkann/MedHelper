@@ -82,10 +82,11 @@ public final class R {
         public static final int title_activity_medications=0x7f050001;
         public static final int toast_added=0x7f050011;
         public static final int toast_deleted=0x7f050012;
+        public static final int toast_medNameEmpty=0x7f050013;
         public static final int toast_saved=0x7f050010;
-        public static final int yn_n_delete=0x7f050015;
-        public static final int yn_q_delete=0x7f050013;
-        public static final int yn_y_delete=0x7f050014;
+        public static final int yn_n_delete=0x7f050016;
+        public static final int yn_q_delete=0x7f050014;
+        public static final int yn_y_delete=0x7f050015;
     }
     public static final class style {
         /** 
