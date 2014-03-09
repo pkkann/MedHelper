@@ -88,7 +88,7 @@ public class MedicationsActivity extends Activity {
 				itemView = getLayoutInflater().inflate(R.layout.item_view, parent, false);
 			}
 			
-			// Find the car to work with
+			// Find the medication to work with
 			Medication currentMed = medH.getMedication(position);
 			
 			// Fill the view
